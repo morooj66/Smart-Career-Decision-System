@@ -188,7 +188,7 @@ cp .env.example .env
 python app.py
 ```
 
-Open your browser at: **http://localhost:7860**
+Open your browser at: **[http://localhost:7860](https://791b2ab450ebd12ac7.gradio.live)**
 
 ---
 

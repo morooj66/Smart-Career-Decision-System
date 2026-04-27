@@ -1,11 +1,11 @@
-# 🎯 Smart Career Decision System — Multi-Agent AI
+# Smart Career Decision System — Multi-Agent AI
 
 > **Prototype / Proof of Concept** developed as part of the AI Agents Program at SDAIA Academy,
 > focusing on LangGraph-based multi-agent workflows.
 
 ---
 
-## 📌 Short Description
+##  Short Description
 
 A smart AI system that helps students and graduates compare technical career paths
 and choose the best fit based on their skills, interests, and career goal —
@@ -13,7 +13,7 @@ powered by a 5-agent LangGraph pipeline.
 
 ---
 
-## 🔴 Problem
+##  Problem
 
 Many students and graduates struggle to choose between technical career paths
 such as AI Engineer, Data Scientist, Machine Learning Engineer, and Data Engineer.
@@ -25,7 +25,7 @@ such as AI Engineer, Data Scientist, Machine Learning Engineer, and Data Enginee
 
 ---
 
-## ✅ Solution
+## Solution
 
 A multi-agent AI system that:
 1. Parses and understands the user's profile (skills, interests, goal).
@@ -36,7 +36,7 @@ A multi-agent AI system that:
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 User Input (Gradio UI)
@@ -83,7 +83,7 @@ Gradio Output (formatted text report)
 
 ---
 
-## 🤖 Agents Explained
+##  Agents Explained
 
 | # | Agent | Method | Role |
 |---|-------|--------|------|
@@ -95,7 +95,7 @@ Gradio Output (formatted text report)
 
 ---
 
-## 🛠️ Tools
+##  Tools
 
 | Tool | Used By | Description |
 |------|---------|-------------|
@@ -106,7 +106,7 @@ Gradio Output (formatted text report)
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |-----------|---------|
@@ -122,7 +122,7 @@ Gradio Output (formatted text report)
 
 ---
 
-## ✨ Features
+##  Features
 
 - **5-agent sequential pipeline** managed by LangGraph
 - **ReAct-style tool-calling loop** in the Research Agent
@@ -135,7 +135,7 @@ Gradio Output (formatted text report)
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 smart-career-decision-system/
@@ -152,7 +152,7 @@ smart-career-decision-system/
 
 ---
 
-## ▶️ How to Run Locally
+##  How to Run Locally
 
 ### 1. Clone the repository
 
@@ -192,7 +192,7 @@ Open your browser at: **[http://localhost:7860](https://791b2ab450ebd12ac7.gradi
 
 ---
 
-## 💡 Example Input
+##  Example Input
 
 | Field | Example Value |
 |-------|--------------|
@@ -203,46 +203,46 @@ Open your browser at: **[http://localhost:7860](https://791b2ab450ebd12ac7.gradi
 
 ---
 
-## 📊 Example Output
+##  Example Output
 
 ```
 ══════════════════════════════════════════════════════════════
-  ✅  RECOMMENDED PATH:  AI ENGINEER
+   RECOMMENDED PATH:  AI ENGINEER
 ══════════════════════════════════════════════════════════════
 
-📌 WHY THIS PATH?
+ WHY THIS PATH?
 
    Your Python skills and strong interest in building AI products align
    closely with the AI Engineer role. Your FastAPI experience is directly
    applicable to deploying AI services, and your enthusiasm for LLMs
    gives you a strong foundation for this path.
 
-📊 MATCH SCORES  (Skill 60% + Interest 40%)
+ MATCH SCORES  (Skill 60% + Interest 40%)
 
    AI Engineer                      ████████████████░░░░  78/100  ◀ BEST FIT
                                     Skills: 45/60   Interests: 33/40
    Data Scientist                   ████████████░░░░░░░░  62/100
                                     Skills: 38/60   Interests: 24/40
 
-💪 YOUR STRENGTHS
+ YOUR STRENGTHS
 
    • Python proficiency with practical project experience
    • Existing FastAPI knowledge applicable to AI service deployment
    • Strong interest in LLMs and AI product development
 
-⚠️  AREAS TO DEVELOP
+  AREAS TO DEVELOP
 
    • Prompt engineering and LLM evaluation techniques
    • RAG system design and vector database integration
    • Production deployment and CI/CD for AI systems
 
-🎯 TOP SKILL GAPS FOR AI ENGINEER
+ TOP SKILL GAPS FOR AI ENGINEER
 
    • LLM tooling (LangChain / LangGraph)
    • Vector databases and RAG architecture
    • AI evaluation and observability
 
-🚀 RECOMMENDED NEXT STEPS
+ RECOMMENDED NEXT STEPS
 
    1. Complete a LangChain and LangGraph course (DeepLearning.AI)
    2. Build a RAG project using OpenAI and a vector database
@@ -260,7 +260,7 @@ Open your browser at: **[http://localhost:7860](https://791b2ab450ebd12ac7.gradi
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Integrate real-time job market data (LinkedIn, Indeed APIs)
 - Add more career paths beyond AI and data fields
@@ -271,7 +271,7 @@ Open your browser at: **[http://localhost:7860](https://791b2ab450ebd12ac7.gradi
 
 ---
 
-## 🎓 Program Note
+##  Program Note
 
 > This project was developed as part of the **AI Agents Program at SDAIA Academy**,
 > focusing on LangGraph-based multi-agent workflows.
@@ -279,6 +279,6 @@ Open your browser at: **[http://localhost:7860](https://791b2ab450ebd12ac7.gradi
 
 ---
 
-## 📄 License
+##  License
 
 This project is for educational purposes only.
